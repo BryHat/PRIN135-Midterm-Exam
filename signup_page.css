@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url(https://fastly.picsum.photos/id/954/1080/720.jpg?hmac=NwMpc5AJJiCETQKSckaYM47u5iYPOS6x9IPWxKDsO_M);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px 2px #000000;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="confirmed-password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 5px;
+    vertical-align: middle;
+  }
+  
+  .inline {
+    display: inline;
+  }
+  
+  input[type="submit"] {
+    background-color: #0077B6;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005b8f;
+  }
+  
+  .button-signup,
+  .button-back {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: #005b8f;
+  }
+  

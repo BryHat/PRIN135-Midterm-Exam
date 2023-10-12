@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="signup_page.css" />
+  </head>
+  <body>
+    <div class="login-container">
+    <h1>Signup Form</h1>
+        <label for="Given Name">Given Name <input id="first-name" name="first-name" type="text" required placeholder="Enter your Given Name" /></label>
+        <label for="Last Name">Last Name <input id="last-name" name="last-name" type="text" required placeholder="Enter your Last Name"/></label>
+        <label for="Age">Age <input id="age" name="age" type="text" required placeholder="Enter your Age" /></label>
+        <label for="Email">Email <input id="email" name="email" type="email" required placeholder="Enter your Email"/></label>
+
+        <legend>Gender</legend>
+        <label for="male"><input id="male" type="radio" name="account-type" class="inline" checked /> Male</label>
+        <label for="female"><input id="female" type="radio" name="account-type" class="inline" /> Female</label>
+
+        <label for="Password">Password <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}" required placeholder="Enter your Password" /></label>
+        <label for="Confirmed-Password">Confirm Password <input id="confirmed-password" name="confirmed-password" type="confirmed-password" pattern="[a-z0-5]{8,}" required placeholder="Enter your Password" /></label>
+      
+        <label for="referrer">Year Level
+          <select id="referrer" name="referrer">
+            <option value="">Select Year Level</option>
+            <option value="1">First Year</option>
+            <option value="2">Second Year</option>
+            <option value="3">Third Year</option>
+            <option value="4">Fourth Year</option>
+          </select>
+        </label>
+
+        <h3>What are your skills (Check all that apply)</h3>
+
+        <div class="checkbox-group">
+            <label>
+              <input type="checkbox" name="Computer Architecture" value="yes">
+              Computer Architecture
+            </label>
+            <label>
+              <input type="checkbox" name="Computer Networking" value="yes">
+              Computer Networking
+            </label>
+            <label>
+                <input type="checkbox" name="Computer Programming" value="yes">
+                Computer Programming
+              </label>
+              <label>
+                <input type="checkbox" name="Database Management" value="yes">
+                Database Management
+              </label>
+              <label>
+                <input type="checkbox" name="System Administration" value="yes">
+                System Administration
+              </label>
+              <label>
+                <input type="checkbox" name="UI" value="yes">
+                User Interface/Experience
+              </label>
+              <label>
+                <input type="checkbox" name="Web Development" value="yes">
+                Web Development
+              </label>
+          </div>
+        </form>
+
+        <h3>Other skills not mentioned from above</h3>
+        <label class="text-box">
+            <input type="text" name="other skills" id="other">
+        </label>
+        <div class="button-container">
+      <input type="submit" value="Sign Up" class="button-signup"/>
+      <a href="login_page.html">Back To Login</a> 
+    </div>
+    </form>
+</div>
+  </body>
+</html>
