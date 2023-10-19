@@ -48,7 +48,7 @@ button[type="code-send"] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace; /* Apply font-family to the button */
+    font-family: 'Courier New', Courier, monospace; 
     transition: background-color 0.3s;
 }
 
@@ -64,12 +64,17 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace; /* Apply font-family to the button */
+    font-family: 'Courier New', Courier, monospace; 
     transition: background-color 0.3s;
 }
 
-button[type="back"]:hover {
-    background-color: #555;
+.back-link:hover {
+    color: #07a2fc;
+}
+
+.back-link{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace ;
 }
 
 

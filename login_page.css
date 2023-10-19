@@ -55,3 +55,15 @@ button {
 button:hover {
     background-color: #07a2fc;
 }
+
+.forgot-pass:hover {
+    color: #07a2fc;
+}
+
+.signup-link:hover{
+    color: #07a2fc;
+}
+
+.input-group1{
+    padding: 20px 10px;   
+}

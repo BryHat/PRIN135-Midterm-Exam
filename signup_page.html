@@ -16,10 +16,12 @@
         <legend>Gender</legend>
         <label for="male"><input id="male" type="radio" name="account-type" class="inline" checked /> Male</label>
         <label for="female"><input id="female" type="radio" name="account-type" class="inline" /> Female</label>
-
+        
+        <div class="pass">
         <label for="Password">Password <input id="password" name="password" type="password" pattern="[a-z0-5]{8,}" required placeholder="Enter your Password" /></label>
-        <label for="Confirmed-Password">Confirm Password <input id="confirmed-password" name="confirmed-password" type="confirmed-password" pattern="[a-z0-5]{8,}" required placeholder="Enter your Password" /></label>
-      
+        <label for="Confirmed-Password">Confirm Password <input id="confirmed-password" name="confirmed-password" type="password" pattern="[a-z0-5]{8,}" required placeholder="Enter your Password" /></label>
+        </div>
+        
         <label for="referrer">Year Level
           <select id="referrer" name="referrer">
             <option value="">Select Year Level</option>
@@ -65,12 +67,13 @@
         </form>
 
         <h3>Other skills not mentioned from above</h3>
-        <label class="text-box">
-            <input type="text" name="other skills" id="other">
+        <label >
+            <textarea class="text-box" placeholder="Enter your other skills here..."></textarea>
         </label>
         <div class="button-container">
-      <input type="submit" value="Sign Up" class="button-signup"/>
-      <a href="login_page.html">Back To Login</a> 
+      <button class="signups" type="submit">Sign-Up</button>
+      <br>
+      <a class="backlog" href="login_page.html">Back To Login</a> 
     </div>
     </form>
 </div>
